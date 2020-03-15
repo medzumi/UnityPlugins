@@ -1,7 +1,7 @@
 ﻿
 namespace SceneManagament.Examples
 {
-    public class ExampleScene: Scene
+    public class ExampleScene: Scene<SceneController>
     {
         private const string SCENE_NAME = "DefaultScene";
 

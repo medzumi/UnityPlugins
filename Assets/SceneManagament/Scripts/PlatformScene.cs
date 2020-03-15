@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SceneManagament
 {
-    public abstract class PlatformScene : Scene
+    public abstract class PlatformScene<TSceneController> : Scene<TSceneController> where TSceneController:SceneController
     {
         protected abstract string IosSceneName { get; }
         protected abstract string AndroidSceneName { get; }

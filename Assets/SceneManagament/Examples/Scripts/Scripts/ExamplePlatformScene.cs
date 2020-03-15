@@ -1,7 +1,7 @@
 ﻿
 namespace SceneManagament.Examples
 {
-    public class ExamplePlatformScene : PlatformScene
+    public class ExamplePlatformScene : PlatformScene<SceneController>
     {
         private const string IOS_EXAMPLE = "IosScene";
         private const string ANDROID_EXAMPLE = "AndroidExample";
